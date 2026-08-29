@@ -1,5 +1,9 @@
 # AndroLink
 
+<p align="center">
+  <img src="assets/AndroLink-Workstation.png" alt="AndroLink relie Android à un ordinateur" width="420">
+</p>
+
 ### Relier simplement un téléphone Android à son ordinateur  
 ### A simple bridge between an Android phone and a computer
 
@@ -73,3 +77,9 @@ This repository is only used to distribute public builds. It does not contain th
 
 💡 Une idée ou un souci ? Vous pouvez ouvrir un [ticket](https://github.com/Alfly-Alyx/AndroLink-public/issues).  
 💡 Have an idea or found a problem? You can open an [issue](https://github.com/Alfly-Alyx/AndroLink-public/issues).
+
+---
+
+<sub>Android est une marque de Google LLC. Le robot Android est reproduit ou adapté à partir d'un travail créé et partagé par Google, selon la licence Creative Commons Attribution 3.0. AndroLink est un projet indépendant, sans affiliation ni approbation de Google LLC.
+
+Android is a trademark of Google LLC. The Android robot is reproduced or adapted from work created and shared by Google under the Creative Commons Attribution 3.0 License. AndroLink is an independent project and is not affiliated with or endorsed by Google LLC.</sub>
