@@ -58,14 +58,16 @@ Every Windows release contains:
 - one portable archive for Windows 10;
 - one portable archive for Windows 11.
 
-AndroLink is distributed for **64-bit Windows** and works with phones running **Android 5.0 or later**. macOS and Linux editions are still being validated and are not distributed here yet.
+AndroLink is distributed for **64-bit Windows** and works with phones running **Android 5.0 or later**. macOS and Linux editions are still being validated and are not distributed here yet. iOS support is planned for a future release.
 
 ### What AndroLink does
 
 - browse and transfer files, photos, and videos;
-- access contacts, SMS messages, notifications, and apps with the required Android permissions;
+- manage contacts, SMS messages, notifications, and apps;
 - display and control the phone through **AndroLink Remote**;
-- create local backups and make phone data easier to find.
+- create local backups and make phone data easier to find;
+- configure parental controls;
+- create a complete, encrypted local backup of your phone and restore it to any other phone, whether it runs Android or not.
 
 ### Privacy and updates
 
