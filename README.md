@@ -17,22 +17,10 @@ C’est un projet personnel et indépendant, édité par **Alfly-Alyx**, conçu 
 **Gérer votre téléphone, retrouver ce qui compte et préparer la suite, depuis un même endroit.** AndroLink réunit ces usages dans une application pour Windows :
 
 - **Retrouver une photo sans connaître son nom.** Recherchez son contenu avec des mots-clés comme « chien » ou « plage ». L’analyse se fait sur votre PC, sans envoyer vos images à un service d’intelligence artificielle en ligne.
+- **Utiliser aussi AndroLink avec un Librem 5.** La prise en charge d’autres téléphones Linux est en cours de développement.
 - **Mettre de l’ordre avec le confort du PC.** Rangez vos fichiers, corrigez plusieurs contacts, fusionnez les doublons et exportez-les au format vCard ou dans un tableau Excel. L’explorateur du téléphone reprend les repères de Windows.
 - **Préparer une sauvegarde ou un changement de téléphone.** Choisissez les données compatibles à conserver, vérifiez vos sauvegardes et sélectionnez ce que vous voulez restaurer. Les données personnelles enregistrées dans les sauvegardes sont chiffrées.
 - **Utiliser vos appareils sans créer de compte AndroLink.** Le téléphone et le PC échangent directement par câble ou sur votre réseau local. Vous gardez accès à la gestion du téléphone sans Internet, une fois les composants nécessaires installés.
-
-<details>
-<summary>Quelques repères pour comparer avec d’autres solutions</summary>
-
-| Solution | Ce qui peut guider votre choix |
-| --- | --- |
-| Mobile connecté de Microsoft | Son installation repose sur un [compte Microsoft](https://support.microsoft.com/en-gb/windows/apps/phonelink/phone-link-requirements-and-setup). L’[accès au téléphone dans l’Explorateur Windows](https://support.microsoft.com/en-us/windows/experience/fileexplorer/setting-up-and-using-your-phone-in-file-explorer) demande Windows 11 et Android 11 ou plus. AndroLink propose son propre explorateur sous Windows 10 et 11, sans compte AndroLink. |
-| LocalSend | [LocalSend](https://localsend.org/) propose déjà le partage de fichiers sur le réseau local sans compte. L’intérêt d’AndroLink est d’y associer la gestion des contacts et SMS, les sauvegardes et la recherche par contenu dans les photos. |
-| MyPhoneExplorer | [MyPhoneExplorer](https://play.google.com/store/apps/details?id=com.fjsoft.myphoneexplorer.client) réunit déjà fichiers, contacts, SMS et sauvegardes avec une connexion locale. AndroLink associe ces usages à sa recherche photo locale et prend également en charge le Librem 5. La compatibilité avec d’autres téléphones Linux est en cours de développement. |
-
-Comparaison fondée sur les présentations officielles consultées le 12 septembre 2026. Ces fonctions ne sont pas toutes exclusives à AndroLink : c’est leur combinaison qui doit correspondre à vos besoins.
-
-</details>
 
 ## Un explorateur familier pour votre téléphone
 
@@ -101,12 +89,14 @@ La sauvegarde d’une application Android ne comprend pas ses données privées 
 - Estimer le volume et la durée du transfert, puis consulter ce qui a réussi ou demande une intervention.
 - Être guidé pour reconnecter les comptes sur le nouveau téléphone, sans récupérer leurs mots de passe.
 
-Le transfert dépend des possibilités des deux téléphones. AndroLink ne promet pas une copie intégrale de toutes les données vers n’importe quel appareil.
+**Ce que vous pourrez retrouver :** les contacts, SMS, fichiers personnels et applications que le téléphone permet de sauvegarder et de restaurer. Sur Android, les mots de passe, les sessions ouvertes et les données privées des applications ne sont pas inclus. Par exemple, réinstaller un jeu ne garantit pas de retrouver sa progression. Le système Android lui-même n’est pas sauvegardé.
+
+Lors d’un changement de téléphone, les données récupérables dépendent des deux appareils. Les applications Android peuvent être réinstallées sur un Android compatible ; elles ne sont pas converties en applications Linux.
 
 ### Écran, sons et navigation
 
 - Afficher et contrôler l’écran Android à la souris et au clavier avec **AndroLink Remote**, y compris les appuis longs.
-- Copier ou coller volontairement entre le téléphone et le PC, sans synchronisation automatique du presse-papiers.
+- Copier ou coller entre le téléphone Android et le PC dans AndroLink Remote, à votre demande, sans synchronisation automatique du presse-papiers.
 - Régler les volumes du multimédia, des sonneries, notifications et alarmes lorsque le téléphone le permet.
 - Retrouver les onglets Chrome détectés sur Android et choisir les pages à ouvrir dans le navigateur du PC. Cette fonction est expérimentale.
 
@@ -119,7 +109,7 @@ AndroLink Remote ne transmet pas le son du téléphone.
 - Être guidé pour la connexion USB ou Wi-Fi et résoudre les difficultés de reconnaissance du téléphone.
 - Choisir les comportements de connexion et les réglages compatibles proposés par le téléphone.
 - Consulter les comptes visibles et ouvrir les réglages du téléphone pour les gérer, sans lire les mots de passe.
-- Accéder aux réglages officiels de contrôle parental, sans contourner les protections du téléphone.
+- Ouvrir Google Family Link ou les réglages parentaux du téléphone. Les protections sont configurées et assurées par ces outils.
 - Découvrir les systèmes mobiles alternatifs et rechercher les possibilités officiellement proposées pour son appareil.
 - Accéder à un terminal sur les téléphones Android et Linux mobile compatibles, ainsi qu’aux outils de diagnostic disponibles.
 - Choisir l’apparence disponible, la fréquence de recherche des mises à jour et retrouver une version précédente compatible.
@@ -163,22 +153,10 @@ Available features depend on the phone, its operating system and the permissions
 **Manage your phone, find what matters and prepare your next move in one place.** AndroLink brings these tasks together in a Windows application:
 
 - **Find a photo without knowing its filename.** Search its content with keywords such as “dog” or “beach”. Analysis runs on your PC without sending your images to an online AI service.
+- **Use AndroLink with a Librem 5 too.** Support for other Linux phones is in development.
 - **Organise things with the comfort of your PC.** Arrange files, edit several contacts, merge duplicates and export contacts as vCard files or Excel spreadsheets. The phone’s file manager uses familiar Windows controls.
 - **Prepare a backup or a phone change.** Choose the supported data to keep, check your backups and select what to restore. Personal data saved in backups is encrypted.
 - **Use your devices without creating an AndroLink account.** Your phone and PC communicate directly over a cable or your local network. Phone management remains available without Internet access once the necessary components are installed.
-
-<details>
-<summary>A few points to help compare alternatives</summary>
-
-| Solution | What may help you choose |
-| --- | --- |
-| Microsoft Phone Link | Setup uses a [Microsoft account](https://support.microsoft.com/en-gb/windows/apps/phonelink/phone-link-requirements-and-setup). [Phone access through Windows File Explorer](https://support.microsoft.com/en-us/windows/experience/fileexplorer/setting-up-and-using-your-phone-in-file-explorer) requires Windows 11 and Android 11 or later. AndroLink provides its own file manager on Windows 10 and 11, without an AndroLink account. |
-| LocalSend | [LocalSend](https://localsend.org/) already offers local file sharing without an account. AndroLink combines local transfers with contact and SMS management, backups and photo content search. |
-| MyPhoneExplorer | [MyPhoneExplorer](https://play.google.com/store/apps/details?id=com.fjsoft.myphoneexplorer.client) already combines files, contacts, SMS and backups over a local connection. AndroLink combines these uses with its local photo search and also supports the Librem 5. Support for other Linux phones is in development. |
-
-Based on official product information checked on 12 September 2026. These features are not all exclusive to AndroLink: their combination should fit your needs.
-
-</details>
 
 ### Your data stays under your control
 
@@ -200,9 +178,9 @@ Based on official product information checked on 12 September 2026. These featur
 - **Manage contacts:** create and edit contact details and photos, change several contacts at once, detect and merge duplicates after confirmation, import and export vCard, preview Excel and CSV imports, customise Excel exports, and back up or restore contacts.
 - **Handle SMS and notifications:** read conversations or chronological lists, search and send standard SMS messages, export messages as text, back up and restore selected messages or conversations, and delete messages after confirmation. View supported notifications and use the actions offered by the phone. MMS and RCS are not supported; sending SMS uses the phone’s SIM and remains subject to your mobile plan.
 - **Manage applications:** view installed applications, their versions, origins and available sizes; install, enable, disable or uninstall applications where permitted; back up Android installation files and reinstall selected applications. These backups do not include an application’s private data, such as game progress or signed-in accounts. Compatible Linux phones offer application management appropriate to their system.
-- **Back up, restore and change phones:** create encrypted personal-data backups, check their integrity, preview their contents and choose what to restore. Prepare transfers of supported contacts, SMS, files, photos, videos and applications, estimate their size and duration, and see what succeeded. Account reconnection is guided without retrieving passwords. Coverage depends on both phones; this is not a complete backup of every application or every device.
-- **Use the connected phone from your PC:** view and control Android with the mouse and keyboard, including long presses; copy and paste deliberately without automatic clipboard synchronisation; adjust supported sound volumes. AndroLink Remote does not stream audio. Experimental Chrome tab continuation lets you choose among the tabs detected on Android and open their pages in your PC browser.
-- **Understand and configure your phone:** see detected device, system, storage, memory, processor, battery and security information. Get USB and Wi-Fi help, adjust supported connection settings, view available accounts without reading passwords, and open official parental-control settings. Discover alternative mobile operating systems and official options for your phone. Advanced users can access a terminal on compatible Android and mobile Linux phones, along with available diagnostic tools.
+- **Back up, restore and change phones:** create encrypted personal-data backups, check their integrity, preview their contents and choose what to restore. Prepare transfers of supported contacts, SMS, files, photos, videos and applications, estimate their size and duration, and see what succeeded. Account reconnection is guided without retrieving passwords. Recovery depends on both phones. Android backups exclude passwords, signed-in sessions, private application data and the Android system itself. For example, reinstalling a game does not guarantee that its progress will be restored. Android applications can be reinstalled on compatible Android phones; they are not converted into Linux applications.
+- **Use the connected phone from your PC:** view and control Android with the mouse and keyboard, including long presses; copy and paste between Android and the PC in AndroLink Remote when you choose, without automatic clipboard synchronisation; adjust supported sound volumes. AndroLink Remote does not stream audio. Experimental Chrome tab continuation lets you choose among the tabs detected on Android and open their pages in your PC browser.
+- **Understand and configure your phone:** see detected device, system, storage, memory, processor, battery and security information. Get USB and Wi-Fi help, adjust supported connection settings, view available accounts without reading passwords, and open Google Family Link or the phone’s parental-control settings, where protections are configured and enforced. Discover alternative mobile operating systems and official options for your phone. Advanced users can access a terminal on compatible Android and mobile Linux phones, along with available diagnostic tools.
 - **Adjust AndroLink and get help:** choose available appearance options and update-check frequency, access compatible previous versions, and submit a suggestion, help request or problem report through the application’s feedback form.
 
 ### Download and compatibility
