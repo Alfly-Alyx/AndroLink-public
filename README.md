@@ -17,7 +17,7 @@ C’est un projet personnel et indépendant, édité par **Alfly-Alyx**, conçu 
 **Gérer votre téléphone, retrouver ce qui compte et préparer la suite, depuis un même endroit.** AndroLink réunit ces usages dans une application pour Windows :
 
 - **Retrouver une photo sans connaître son nom.** Recherchez son contenu avec des mots-clés comme « chien » ou « plage ». L’analyse se fait sur votre PC, sans envoyer vos images à un service d’intelligence artificielle en ligne.
-- **Mettre de l’ordre avec le confort du PC.** Rangez vos fichiers, corrigez plusieurs contacts, fusionnez les doublons et préparez vos imports ou exports Excel. L’explorateur du téléphone reprend les repères de Windows.
+- **Mettre de l’ordre avec le confort du PC.** Rangez vos fichiers, corrigez plusieurs contacts, fusionnez les doublons et exportez les en Vcard ou sous un tableur excel. L’explorateur du téléphone reprend les repères de Windows.
 - **Préparer une sauvegarde ou un changement de téléphone.** Choisissez les données compatibles à conserver, vérifiez vos sauvegardes et sélectionnez ce que vous voulez restaurer. Les données personnelles enregistrées dans les sauvegardes sont chiffrées.
 - **Utiliser vos appareils sans créer de compte AndroLink.** Le téléphone et le PC échangent directement par câble ou sur votre réseau local. Vous gardez accès à la gestion du téléphone sans Internet, une fois les composants nécessaires installés.
 
