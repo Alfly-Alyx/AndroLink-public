@@ -12,6 +12,28 @@ C’est un projet personnel et indépendant, édité par **Alfly-Alyx**, conçu 
 
 [**Télécharger la dernière version**](https://github.com/Alfly-Alyx/AndroLink-public/releases/latest) · [Toutes les versions](https://github.com/Alfly-Alyx/AndroLink-public/releases) · [English](#english)
 
+## Pourquoi choisir AndroLink ?
+
+**Gérer votre téléphone, retrouver ce qui compte et préparer la suite, depuis un même endroit.** AndroLink réunit ces usages dans une application pour Windows :
+
+- **Retrouver une photo sans connaître son nom.** Recherchez son contenu avec des mots-clés comme « chien » ou « plage ». L’analyse se fait sur votre PC, sans envoyer vos images à un service d’intelligence artificielle en ligne.
+- **Mettre de l’ordre avec le confort du PC.** Rangez vos fichiers, corrigez plusieurs contacts, fusionnez les doublons et préparez vos imports ou exports Excel. L’explorateur du téléphone reprend les repères de Windows.
+- **Préparer une sauvegarde ou un changement de téléphone.** Choisissez les données compatibles à conserver, vérifiez vos sauvegardes et sélectionnez ce que vous voulez restaurer. Les données personnelles enregistrées dans les sauvegardes sont chiffrées.
+- **Utiliser vos appareils sans créer de compte AndroLink.** Le téléphone et le PC échangent directement par câble ou sur votre réseau local. Vous gardez accès à la gestion du téléphone sans Internet, une fois les composants nécessaires installés.
+
+<details>
+<summary>Quelques repères pour comparer avec d’autres solutions</summary>
+
+| Solution | Ce qui peut guider votre choix |
+| --- | --- |
+| Mobile connecté de Microsoft | Son installation repose sur un [compte Microsoft](https://support.microsoft.com/en-gb/windows/apps/phonelink/phone-link-requirements-and-setup). L’[accès au téléphone dans l’Explorateur Windows](https://support.microsoft.com/en-us/windows/experience/fileexplorer/setting-up-and-using-your-phone-in-file-explorer) demande Windows 11 et Android 11 ou plus. AndroLink propose son propre explorateur sous Windows 10 et 11, sans compte AndroLink. |
+| LocalSend | [LocalSend](https://localsend.org/) propose déjà le partage de fichiers sur le réseau local sans compte. L’intérêt d’AndroLink est d’y associer la gestion des contacts et SMS, les sauvegardes et la recherche par contenu dans les photos. |
+| MyPhoneExplorer | [MyPhoneExplorer](https://play.google.com/store/apps/details?id=com.fjsoft.myphoneexplorer.client) réunit déjà fichiers, contacts, SMS et sauvegardes avec une connexion locale. AndroLink associe ces usages à sa recherche photo locale et à des fonctions pour plusieurs familles de systèmes mobiles, avec les limites de compatibilité indiquées plus bas. |
+
+Comparaison fondée sur les présentations officielles consultées le 12 septembre 2026. Ces fonctions ne sont pas toutes exclusives à AndroLink : c’est leur combinaison qui doit correspondre à vos besoins.
+
+</details>
+
 ## Un explorateur familier pour votre téléphone
 
 L’explorateur intégré reprend les repères de l’Explorateur Windows : dossiers, barre d’adresse, retour au dossier précédent, affichage en liste ou en icônes, menus au clic droit, sélection multiple et raccourcis clavier.
@@ -22,9 +44,9 @@ Vous parcourez les dossiers accessibles **du téléphone connecté**. Vous pouve
 
 **Votre téléphone communique directement avec votre PC**, par câble USB ou par le réseau local que vous avez autorisé. Vos fichiers, photos, contacts et SMS sont échangés entre vos deux appareils, sans passer par un serveur de transfert AndroLink.
 
-**Aucun compte AndroLink à créer, aucun cloud AndroLink à utiliser.** Une fois installé avec les composants nécessaires, AndroLink permet de gérer le téléphone sans connexion Internet. Internet sert aux mises à jour, aux informations complémentaires et aux services d’aide, pas au transfert de votre photothèque ou de votre carnet d’adresses.
+**Aucun compte AndroLink à créer, aucun cloud AndroLink à utiliser.** Une fois installé avec les composants nécessaires, AndroLink permet de gérer le téléphone sans connexion Internet. Une connexion Internet peut servir aux mises à jour, aux informations complémentaires, aux retours et diagnostics, ou au téléchargement d’un composant manquant.
 
-**Vous choisissez ce que vous sauvegardez et ce que vous copiez.** Vos sauvegardes personnelles sont chiffrées sur le PC. Les fichiers que vous copiez ou exportez restent des fichiers ordinaires dans le dossier choisi. L’application conserve aussi ses réglages et ses données de fonctionnement ; certains aperçus et transferts utilisent des copies temporaires qui ne sont pas chiffrées comme les sauvegardes.
+**Vous choisissez ce que vous sauvegardez et ce que vous copiez.** Les données personnelles enregistrées dans vos sauvegardes sont chiffrées sur le PC. Les fichiers copiés ou exportés, ainsi que les fichiers d’installation des applications sauvegardées, ne sont pas automatiquement chiffrés par AndroLink. L’application conserve aussi ses réglages et ses données de fonctionnement ; certains aperçus et transferts utilisent des copies temporaires en clair.
 
 **La recherche photo travaille localement.** Vos images sont analysées sur le PC, sans les envoyer à une intelligence artificielle en ligne. Le catalogue qui permet de les retrouver est chiffré et conservé sur le téléphone lorsque son compagnon le permet, ou sur le PC dans les autres cas.
 
@@ -58,7 +80,7 @@ Les fonctions disponibles dépendent du téléphone, de son système et des auto
 - Lire les SMS en conversations ou en liste, rechercher un message et rédiger un SMS depuis le PC.
 - Exporter les messages en texte, sauvegarder une sélection ou des conversations entières, puis les restaurer.
 - Supprimer des SMS après confirmation et avec les autorisations demandées par Android.
-- Consulter les notifications compatibles et utiliser les actions proposées par le téléphone, y compris répondre lorsque cette action est disponible.
+- Consulter les notifications du téléphone sur le PC et utiliser les actions compatibles proposées.
 
 Les MMS et les conversations RCS ne sont pas pris en charge. L’envoi d’un SMS utilise la carte SIM du téléphone et reste soumis à votre forfait mobile.
 
@@ -86,7 +108,7 @@ Le transfert dépend des possibilités des deux téléphones. AndroLink ne prome
 - Afficher et contrôler l’écran Android à la souris et au clavier avec **AndroLink Remote**, y compris les appuis longs.
 - Copier ou coller volontairement entre le téléphone et le PC, sans synchronisation automatique du presse-papiers.
 - Régler les volumes du multimédia, des sonneries, notifications et alarmes lorsque le téléphone le permet.
-- Choisir des onglets Chrome ouverts sur Android et les ouvrir dans le navigateur du PC. Cette fonction est expérimentale ; les onglets privés ne sont pas lus.
+- Retrouver les onglets Chrome détectés sur Android et choisir les pages à ouvrir dans le navigateur du PC. Cette fonction est expérimentale.
 
 AndroLink Remote ne transmet pas le son du téléphone.
 
@@ -99,13 +121,13 @@ AndroLink Remote ne transmet pas le son du téléphone.
 - Consulter les comptes visibles et ouvrir les réglages du téléphone pour les gérer, sans lire les mots de passe.
 - Accéder aux réglages officiels de contrôle parental, sans contourner les protections du téléphone.
 - Découvrir les systèmes mobiles alternatifs et rechercher les possibilités officiellement proposées pour son appareil.
-- Accéder, sur les téléphones Linux compatibles, aux outils avancés de terminal et de diagnostic.
+- Accéder à un terminal sur les téléphones Android et Linux mobile compatibles, ainsi qu’aux outils de diagnostic disponibles.
 - Choisir l’apparence disponible, la fréquence de recherche des mises à jour et retrouver une version précédente compatible.
 - Envoyer une suggestion, demander de l’aide ou signaler un problème depuis le formulaire proposé dans l’application.
 
 ## Télécharger et commencer
 
-Les versions proposées ici sont destinées à **Windows 10 et Windows 11, en 64 bits**. Chaque publication fournit un installateur qui choisit l’interface adaptée à votre Windows, ainsi que deux archives portables distinctes.
+Les versions proposées ici sont destinées à **Windows 10 et Windows 11, en 64 bits**. La version actuelle fournit un installateur qui choisit l’interface adaptée à votre Windows, ainsi que deux archives portables distinctes.
 
 Les compagnons et les composants prévus pour les téléphones compatibles sont inclus dans la distribution. Vous n’avez pas à les rechercher séparément.
 
@@ -114,8 +136,6 @@ Les compagnons et les composants prévus pour les téléphones compatibles sont 
 1. Téléchargez l’installateur ou l’archive portable correspondant à votre Windows.
 2. Installez l’application, ou décompressez entièrement l’archive portable avant de lancer AndroLink.
 3. Branchez votre téléphone avec un câble permettant le transfert de données, déverrouillez-le et suivez l’aide affichée. Sur Android, la première connexion demande d’activer le débogage USB et d’autoriser votre PC sur le téléphone.
-
-Les exécutables ne disposent pas actuellement d’un certificat commercial de signature. Windows peut donc afficher un avertissement SmartScreen : utilisez les fichiers disponibles sur [la page officielle des versions](https://github.com/Alfly-Alyx/AndroLink-public/releases).
 
 Ce dépôt public rassemble la présentation du logiciel et ses téléchargements. Les mentions des composants tiers sont fournies avec l’application.
 
@@ -131,13 +151,35 @@ Its file manager uses familiar Windows File Explorer controls to browse the stor
 
 Available features depend on the phone, its operating system and the permissions you grant. AndroLink uses the capabilities it actually detects.
 
+### Why choose AndroLink?
+
+**Manage your phone, find what matters and prepare your next move in one place.** AndroLink brings these tasks together in a Windows application:
+
+- **Find a photo without knowing its filename.** Search its content with keywords such as “dog” or “beach”. Analysis runs on your PC without sending your images to an online AI service.
+- **Organise things with the comfort of your PC.** Arrange files, edit several contacts, merge duplicates and prepare Excel imports or exports. The phone’s file manager uses familiar Windows controls.
+- **Prepare a backup or a phone change.** Choose the supported data to keep, check your backups and select what to restore. Personal data saved in backups is encrypted.
+- **Use your devices without creating an AndroLink account.** Your phone and PC communicate directly over a cable or your local network. Phone management remains available without Internet access once the necessary components are installed.
+
+<details>
+<summary>A few points to help compare alternatives</summary>
+
+| Solution | What may help you choose |
+| --- | --- |
+| Microsoft Phone Link | Setup uses a [Microsoft account](https://support.microsoft.com/en-gb/windows/apps/phonelink/phone-link-requirements-and-setup). [Phone access through Windows File Explorer](https://support.microsoft.com/en-us/windows/experience/fileexplorer/setting-up-and-using-your-phone-in-file-explorer) requires Windows 11 and Android 11 or later. AndroLink provides its own file manager on Windows 10 and 11, without an AndroLink account. |
+| LocalSend | [LocalSend](https://localsend.org/) already offers local file sharing without an account. AndroLink combines local transfers with contact and SMS management, backups and photo content search. |
+| MyPhoneExplorer | [MyPhoneExplorer](https://play.google.com/store/apps/details?id=com.fjsoft.myphoneexplorer.client) already combines files, contacts, SMS and backups over a local connection. AndroLink brings these uses together with its local photo search and features for several mobile operating system families, subject to the compatibility limits below. |
+
+Based on official product information checked on 12 September 2026. These features are not all exclusive to AndroLink: their combination should fit your needs.
+
+</details>
+
 ### Your data stays under your control
 
 **Your phone communicates directly with your PC**, over USB or an authorised local network. Files, photos, contacts and SMS messages travel between your two devices without an AndroLink transfer server.
 
-**No AndroLink account to create and no AndroLink cloud to use.** Once the necessary components are installed, you can manage your connected phone without an Internet connection. Internet access serves updates, additional information and support services, rather than transferring your photo library or address book.
+**No AndroLink account to create and no AndroLink cloud to use.** Once the necessary components are installed, you can manage your connected phone without an Internet connection. An Internet connection may be used for updates, additional information, feedback and diagnostics, or to download a missing component.
 
-**You choose what to back up and what to copy.** Personal-data backups are encrypted on your PC. Files you copy or export remain ordinary files in your chosen folder. AndroLink also keeps settings and data needed to run; some previews and transfers use temporary copies that do not have the backups’ encryption.
+**You choose what to back up and what to copy.** Personal data saved in your backups is encrypted on your PC. Copied or exported files, along with backed-up application installation files, are not automatically encrypted by AndroLink. The application also keeps settings and data needed to run; some previews and transfers use unencrypted temporary copies.
 
 **Photo search runs locally.** Images are analysed on your PC without sending them to an online AI service. The search catalogue is encrypted and stored on the phone when its companion supports it, or on the PC otherwise.
 
@@ -152,15 +194,15 @@ Available features depend on the phone, its operating system and the permissions
 - **Handle SMS and notifications:** read conversations or chronological lists, search and send standard SMS messages, export messages as text, back up and restore selected messages or conversations, and delete messages after confirmation. View supported notifications and use the actions offered by the phone. MMS and RCS are not supported; sending SMS uses the phone’s SIM and remains subject to your mobile plan.
 - **Manage applications:** view installed applications, their versions, origins and available sizes; install, enable, disable or uninstall applications where permitted; back up Android installation files and reinstall selected applications. These backups do not include an application’s private data, such as game progress or signed-in accounts. Compatible Linux phones offer application management appropriate to their system.
 - **Back up, restore and change phones:** create encrypted personal-data backups, check their integrity, preview their contents and choose what to restore. Prepare transfers of supported contacts, SMS, files, photos, videos and applications, estimate their size and duration, and see what succeeded. Account reconnection is guided without retrieving passwords. Coverage depends on both phones; this is not a complete backup of every application or every device.
-- **Use the connected phone from your PC:** view and control Android with the mouse and keyboard, including long presses; copy and paste deliberately without automatic clipboard synchronisation; adjust supported sound volumes. AndroLink Remote does not stream audio. Experimental Chrome tab continuation opens selected Android tabs in your PC browser and excludes private browsing.
-- **Understand and configure your phone:** see detected device, system, storage, memory, processor, battery and security information. Get USB and Wi-Fi help, adjust supported connection settings, view available accounts without reading passwords, and open official parental-control settings. Discover alternative mobile operating systems and official options for your phone. Advanced users can access supported Linux terminal and diagnostic tools.
+- **Use the connected phone from your PC:** view and control Android with the mouse and keyboard, including long presses; copy and paste deliberately without automatic clipboard synchronisation; adjust supported sound volumes. AndroLink Remote does not stream audio. Experimental Chrome tab continuation lets you choose among the tabs detected on Android and open their pages in your PC browser.
+- **Understand and configure your phone:** see detected device, system, storage, memory, processor, battery and security information. Get USB and Wi-Fi help, adjust supported connection settings, view available accounts without reading passwords, and open official parental-control settings. Discover alternative mobile operating systems and official options for your phone. Advanced users can access a terminal on compatible Android and mobile Linux phones, along with available diagnostic tools.
 - **Adjust AndroLink and get help:** choose available appearance options and update-check frequency, access compatible previous versions, and submit a suggestion, help request or problem report through the application’s feedback form.
 
 ### Download and compatibility
 
 [**Download the latest stable release**](https://github.com/Alfly-Alyx/AndroLink-public/releases/latest)
 
-Each Windows release includes:
+The current Windows release includes:
 
 - one **Windows 10/11 x64 installer** that selects the appropriate interface;
 - one **Windows 10 portable archive**;
@@ -171,8 +213,6 @@ Companions and the components supplied for supported phones are bundled with And
 Android support starts at **Android 5.0**. Compatible mobile Linux phones, including Librem 5, as well as Lumia/Windows Phone and Nokia N9 devices also have partial or experimental support. They do not all offer the same features as Android. Desktop editions for macOS and Linux are not currently distributed here. iPhone and iPad are not currently supported.
 
 Download the installer or fully extract the portable archive before starting AndroLink. Connect and unlock your phone, then follow the connection guide. Android’s first connection requires enabling USB debugging and authorising your PC on the phone.
-
-Windows builds currently have no commercial code-signing certificate, so SmartScreen may display a warning. Use the downloads from [this official release page](https://github.com/Alfly-Alyx/AndroLink-public/releases).
 
 This public repository provides the product presentation and downloads. Third-party notices are included with the application.
 
