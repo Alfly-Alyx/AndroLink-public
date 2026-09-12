@@ -12,6 +12,8 @@ C’est un projet personnel et indépendant, édité par **Alfly-Alyx**, conçu 
 
 [**Télécharger la dernière version**](https://github.com/Alfly-Alyx/AndroLink-public/releases/latest) · [Toutes les versions](https://github.com/Alfly-Alyx/AndroLink-public/releases) · [English](#english)
 
+[**Découvrir l’interface d’AndroLink — Windows 10 et Windows 11**](https://alfly-alyx.github.io/AndroLink-public/)
+
 ## Pourquoi choisir AndroLink ?
 
 **Gérer votre téléphone, retrouver ce qui compte et préparer la suite, depuis un même endroit.** AndroLink réunit ces usages dans une application pour Windows :
@@ -186,6 +188,8 @@ Available features depend on the phone, its operating system and the permissions
 ### Download and compatibility
 
 [**Download the latest stable release**](https://github.com/Alfly-Alyx/AndroLink-public/releases/latest)
+
+[**Explore the AndroLink interface — Windows 10 and Windows 11**](https://alfly-alyx.github.io/AndroLink-public/)
 
 The current Windows release includes:
 
