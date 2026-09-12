@@ -18,38 +18,17 @@ L’explorateur intégré reprend les repères de l’Explorateur Windows : doss
 
 Vous parcourez les dossiers accessibles **du téléphone connecté**. Vous pouvez y ranger vos fichiers et choisir ceux que vous souhaitez copier vers l’ordinateur. Pour envoyer des fichiers dans l’autre sens, vous les sélectionnez sur le PC ou utilisez le glisser-déposer.
 
-## Votre téléphone et votre PC communiquent directement
+## Vos données restent sous votre contrôle
 
-Les échanges avec le téléphone passent par un câble USB ou, lorsque le téléphone le permet et que vous l’avez autorisé, par votre réseau local. Vos fichiers, photos, contacts et SMS ne passent pas par un serveur de stockage ou de transfert AndroLink.
+**Votre téléphone communique directement avec votre PC**, par câble USB ou par le réseau local que vous avez autorisé. Vos fichiers, photos, contacts et SMS sont échangés entre vos deux appareils, sans passer par un serveur de transfert AndroLink.
 
-**Aucun compte AndroLink à créer. Aucun espace cloud AndroLink à utiliser.** La gestion du téléphone et la recherche photo locale n’exigent pas de connexion Internet une fois les composants nécessaires installés.
+**Aucun compte AndroLink à créer, aucun cloud AndroLink à utiliser.** Une fois installé avec les composants nécessaires, AndroLink permet de gérer le téléphone sans connexion Internet. Internet sert aux mises à jour, aux informations complémentaires et aux services d’aide, pas au transfert de votre photothèque ou de votre carnet d’adresses.
 
-### Quand Internet est-il utilisé ?
+**Vous choisissez ce que vous sauvegardez et ce que vous copiez.** Vos sauvegardes personnelles sont chiffrées sur le PC. Les fichiers que vous copiez ou exportez restent des fichiers ordinaires dans le dossier choisi. L’application conserve aussi ses réglages et ses données de fonctionnement ; certains aperçus et transferts utilisent des copies temporaires qui ne sont pas chiffrées comme les sauvegardes.
 
-AndroLink peut utiliser Internet pour vérifier ou télécharger une mise à jour, trouver une illustration du modèle de votre téléphone, consulter les informations sur les systèmes alternatifs ou récupérer un composant nécessaire qui manque dans l’installation.
+**La recherche photo travaille localement.** Vos images sont analysées sur le PC, sans les envoyer à une intelligence artificielle en ligne. Le catalogue qui permet de les retrouver est chiffré et conservé sur le téléphone lorsque son compagnon le permet, ou sur le PC dans les autres cas.
 
-Les retours et les rapports de diagnostic utilisent également un service en ligne. Un rapport d’erreur vous est présenté avant envoi, sauf si vous avez activé l’envoi automatique, désactivé par défaut. Lorsqu’une installation Linux mobile doit récupérer des composants manquants, leurs noms peuvent être signalés automatiquement au service de retour. Cela ne transfère pas vos photos, contacts ou SMS.
-
-### Que reste-t-il sur l’ordinateur ?
-
-- **Vos sauvegardes :** les données personnelles sauvegardées et le catalogue des sauvegardes sont chiffrés. Sous Windows, leur protection est liée à votre compte utilisateur.
-- **Les fichiers que vous choisissez de copier ou d’exporter :** ils sont enregistrés dans le dossier que vous indiquez. Ces copies ordinaires ne sont pas automatiquement chiffrées par AndroLink. Les fichiers d’installation d’applications conservés dans les sauvegardes restent eux aussi des fichiers ordinaires.
-- **Les données de fonctionnement :** vos réglages, des illustrations de modèles de téléphone, les mises à jour téléchargées et les rapports de diagnostic conservés localement.
-- **Certaines copies temporaires :** le glisser-déposer vers Windows et certains aperçus peuvent déposer des fichiers en clair sur le PC. Leur nettoyage est prévu, mais AndroLink ne promet pas une absence totale de traces.
-
-Si vous choisissez un dossier synchronisé par OneDrive, Dropbox ou un autre logiciel, ce logiciel peut envoyer les copies dans son propre cloud. Cette synchronisation est indépendante d’AndroLink.
-
-### Et la recherche photo ?
-
-L’analyse des photos s’effectue sur le PC avec un moteur isolé qui n’a pas accès à Internet. Elle n’envoie pas les photos à une intelligence artificielle en ligne.
-
-Les informations qui permettent de retrouver les photos sont conservées dans un **index chiffré**, sur le téléphone lorsque son compagnon le permet. Sinon, AndroLink conserve cet index chiffré sur le PC. Cet index n’est pas une copie de la photothèque. Le compagnon peut aussi conserver les réglages et les informations nécessaires à ses autres fonctions : son stockage ne se limite donc pas à l’index photo.
-
-### Vous gardez la main sur les accès
-
-Le téléphone vous demande les autorisations nécessaires. Dans le compagnon Android, **Révoquer les accès** vous conduit aux réglages du téléphone pour retirer les autorisations de contacts, SMS ou notifications. Pour retirer l’accès du PC au téléphone, utilisez aussi les réglages de connexion du téléphone ; si le Wi-Fi est autorisé, débrancher le câble ne suffit pas nécessairement.
-
-La recherche photo peut être désactivée dans AndroLink. **AndroLink Remote** contrôle le téléphone depuis le PC connecté : ce n’est pas un service de prise en main à travers Internet. Ces protections ne rendent cependant pas un ordinateur ou un téléphone compromis invulnérable.
+**Vous décidez des accès accordés.** Le compagnon Android vous guide vers les réglages du téléphone pour retirer ses autorisations. Vous pouvez également retirer l’autorisation de connexion du PC depuis le téléphone et désactiver la recherche photo dans AndroLink. Le contrôle de l’écran avec AndroLink Remote s’effectue depuis le PC connecté.
 
 ## Ce que vous pouvez faire avec AndroLink
 
@@ -152,27 +131,17 @@ Its file manager uses familiar Windows File Explorer controls to browse the stor
 
 Available features depend on the phone, its operating system and the permissions you grant. AndroLink uses the capabilities it actually detects.
 
-### Direct connection and control over your data
+### Your data stays under your control
 
-Your phone’s files, photos, contacts and text messages travel directly between your phone and PC over USB or an authorised local network. **No AndroLink account or AndroLink cloud storage is required.** Once the necessary components are installed, managing the connected phone and using local photo search do not require an Internet connection.
+**Your phone communicates directly with your PC**, over USB or an authorised local network. Files, photos, contacts and SMS messages travel between your two devices without an AndroLink transfer server.
 
-AndroLink Remote lets you view and control a connected Android phone from your PC. It is intended for a direct local connection and does not provide an Internet remote-access service.
+**No AndroLink account to create and no AndroLink cloud to use.** Once the necessary components are installed, you can manage your connected phone without an Internet connection. Internet access serves updates, additional information and support services, rather than transferring your photo library or address book.
 
-You control the permissions granted on your phone. The Android companion’s **Revoke access** button opens the phone’s settings to remove contacts, SMS or notification permissions. Removing the PC’s connection authorisation is a separate step in the phone’s connection settings. Unplugging USB may not disconnect a phone that also has an authorised Wi-Fi connection. Photo search can be disabled in AndroLink.
+**You choose what to back up and what to copy.** Personal-data backups are encrypted on your PC. Files you copy or export remain ordinary files in your chosen folder. AndroLink also keeps settings and data needed to run; some previews and transfers use temporary copies that do not have the backups’ encryption.
 
-Some features **do use the Internet**: checking and downloading updates, obtaining missing components, downloading phone-model illustrations, consulting official operating-system resources, and sending feedback or diagnostics. Reports use an online support service. Error reports are presented before sending unless you have enabled automatic reporting, which is disabled by default. When a mobile Linux installation needs to download missing components, their names may also be reported automatically. This does not send your photos, contacts or SMS messages.
+**Photo search runs locally.** Images are analysed on your PC without sending them to an online AI service. The search catalogue is encrypted and stored on the phone when its companion supports it, or on the PC otherwise.
 
-### What is stored locally
-
-AndroLink keeps settings, cached phone-model illustrations, downloaded updates and local diagnostic reports on the PC. Files you choose to copy or export are also saved in the destination you select.
-
-Personal-data backups and the backup catalogue are encrypted, with protection tied to your Windows user account. Ordinary exports and backed-up Android application installation files are not automatically encrypted by AndroLink.
-
-Photo search analyses images locally on your PC with an isolated engine that has no Internet access. The photo index is encrypted on the phone when a compatible companion supports it; otherwise an encrypted index is kept on the PC. This index is not a copy of your photo library. The companion also keeps preferences and information needed by its other features.
-
-Some previews and drag-and-drop operations can create temporary unencrypted copies on the PC. Cleanup is provided, but AndroLink cannot guarantee that no traces remain. If you save files in a folder synchronised by OneDrive, Dropbox or another application, that application may upload them to its own cloud independently of AndroLink.
-
-Encryption and local connections do not make a compromised PC or phone invulnerable.
+**You control access.** The Android companion guides you to your phone’s settings to remove its permissions. You can also remove the PC’s connection authorisation on the phone and disable photo search in AndroLink. AndroLink Remote controls the screen from the connected PC.
 
 ### What you can do
 
