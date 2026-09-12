@@ -46,9 +46,9 @@ Vous parcourez les dossiers accessibles **du téléphone connecté**. Vous pouve
 
 **Aucun compte AndroLink à créer, aucun cloud AndroLink à utiliser.** Une fois installé avec les composants nécessaires, AndroLink permet de gérer le téléphone sans connexion Internet. Une connexion Internet peut servir aux mises à jour, aux informations complémentaires, aux retours et diagnostics, ou au téléchargement d’un composant manquant.
 
-**Vous choisissez ce que vous sauvegardez et ce que vous copiez.** Les données personnelles enregistrées dans vos sauvegardes sont chiffrées sur le PC. Les fichiers copiés ou exportés, ainsi que les fichiers d’installation des applications sauvegardées, ne sont pas automatiquement chiffrés par AndroLink. L’application conserve aussi ses réglages et ses données de fonctionnement ; certains aperçus et transferts utilisent des copies temporaires en clair.
+**Vous choisissez ce que vous sauvegardez et ce que vous copiez.** Les données personnelles enregistrées dans vos sauvegardes sont chiffrées sur le PC.
 
-**La recherche photo travaille localement.** Vos images sont analysées sur le PC, sans les envoyer à une intelligence artificielle en ligne. Le catalogue qui permet de les retrouver est chiffré et conservé sur le téléphone lorsque son compagnon le permet, ou sur le PC dans les autres cas.
+**La recherche photo travaille localement.** Vos images sont analysées sur le PC, sans les envoyer à une intelligence artificielle en ligne. Le catalogue qui permet de les retrouver est chiffré et conservé sur le téléphone.
 
 **Vous décidez des accès accordés.** Le compagnon Android vous guide vers les réglages du téléphone pour retirer ses autorisations. Vous pouvez également retirer l’autorisation de connexion du PC depuis le téléphone et désactiver la recherche photo dans AndroLink. Le contrôle de l’écran avec AndroLink Remote s’effectue depuis le PC connecté.
 
